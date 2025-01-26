@@ -28,11 +28,11 @@ To overcome class imbalance, various sampling methods were employed:
 5. Oversampling: Increases the representation of the minority class to achieve balance.
 # Machine Learning Models
 The following algorithms were trained on the sampled datasets:
-1.Logistic Regression
-2.Decision Tree Classifier
-3.Random Forest Classifier
-4.Support Vector Machine (SVM)
-5.K-Nearest Neighbors
+1. Logistic Regression
+2. Decision Tree Classifier
+3. Random Forest Classifier
+4. Support Vector Machine (SVM)
+5. K-Nearest Neighbors
 
 # Observations
 1. Logistic Regression: Showed optimal performance with Stratified Sampling and Oversampling.
