@@ -1,7 +1,7 @@
-## Overview
+# Overview
 Detecting credit card fraud is a challenging task due to the heavily imbalanced nature of transaction datasets, which can negatively affect machine learning model performance. This project focuses on:
 
-# Addressing class imbalance by applying the Synthetic Minority Oversampling Technique (SMOTE).
+#@ Addressing class imbalance by applying the Synthetic Minority Oversampling Technique (SMOTE).
 Generating five samples of varying sizes using different sampling methods.
 Training and evaluating five machine learning algorithms on these sampled datasets.
 Analyzing and comparing the models’ performance to determine the most effective sampling technique for each.
