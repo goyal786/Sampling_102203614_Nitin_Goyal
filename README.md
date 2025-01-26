@@ -21,11 +21,11 @@ The dataset is highly skewed, with the following class distribution:
 
 # Sampling Techniques
 To overcome class imbalance, various sampling methods were employed:
-Random Sampling: Randomly selects a subset of records.
-Stratified Sampling: Ensures the class proportions in the dataset are preserved.
-Systematic Sampling: Picks every nth record systematically.
-Cluster Sampling: Divides the dataset into clusters and selects entire clusters for analysis.
-Oversampling: Increases the representation of the minority class to achieve balance.
+1. Random Sampling: Randomly selects a subset of records.
+2. Stratified Sampling: Ensures the class proportions in the dataset are preserved.
+3. Systematic Sampling: Picks every nth record systematically.
+4. Cluster Sampling: Divides the dataset into clusters and selects entire clusters for analysis.
+5. Oversampling: Increases the representation of the minority class to achieve balance.
 # Machine Learning Models
 The following algorithms were trained on the sampled datasets:
 1.Logistic Regression
@@ -35,12 +35,8 @@ The following algorithms were trained on the sampled datasets:
 5.K-Nearest Neighbors
 
 # Observations
-Logistic Regression: Showed optimal performance with Stratified Sampling and Oversampling.
-
-Decision Tree: Delivered the best results when trained on data generated through Stratified Sampling.
-
-Random Forest: Achieved its highest accuracy with Oversampling techniques.
-
-SVM: Performed most effectively on oversampled datasets.
-
-Gradient Boosting: Worked best with Stratified Sampling.
+1. Logistic Regression: Showed optimal performance with Stratified Sampling and Oversampling.
+2. Decision Tree: Delivered the best results when trained on data generated through Stratified Sampling.
+3. Random Forest: Achieved its highest accuracy with Oversampling techniques.
+4. SVM: Performed most effectively on oversampled datasets.
+5. K-Nearest Neighbors: Worked best with Stratified Sampling.
