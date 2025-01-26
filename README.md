@@ -36,7 +36,7 @@ Random Forest Classifier
 
 Support Vector Machine (SVM)
 
-Gradient Boosting
+K-Nearest Neighbors
 
 # Observations
 Logistic Regression: Showed optimal performance with Stratified Sampling and Oversampling.
