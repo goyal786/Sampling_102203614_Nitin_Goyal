@@ -29,10 +29,15 @@ Oversampling: Increases the representation of the minority class to achieve bala
 The following algorithms were trained on the sampled datasets:
 
 Logistic Regression
+
 Decision Tree Classifier
+
 Random Forest Classifier
+
 Support Vector Machine (SVM)
+
 Gradient Boosting
+
 # Observations
 Logistic Regression: Showed optimal performance with Stratified Sampling and Oversampling.
 Decision Tree: Delivered the best results when trained on data generated through Stratified Sampling.
